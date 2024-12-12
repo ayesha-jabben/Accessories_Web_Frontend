@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>FEEDBACK</title>
+</head>
+
+<body>
+    <header class="logo">
+        <h3>A.&styles</h3>
+    </header>
+    <div class="fb">
+        <fieldset>
+            <legend style="text-align: center;">FEEDBACK</legend>
+            <form action="index.php">
+                <br>
+                <label for="name">
+                    NAME
+                    <input type="text" name="name" id="box" placeholder="Enter your name">
+                </label>
+                <br><br>
+                <label for="email">
+                    EMAIL
+                    <input type="email" name="email" id="box" placeholder="Enter your email">
+                </label>
+                <br><br>
+                <label for="country">
+                    COUNTRY
+                    <select id="box">
+                        <option value="USA">USA</option>
+                        <option value="UAE">UAE</option>
+                        <option value="AUSTRALIA">AUSTRALIA</option>
+                        <option value="FRANCE">FRANCE</option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="date">
+                    Date of submisson
+                    <input type="date" name="date" id="box">
+                </label>
+                <br><br>
+                <label for="grnder">
+                    GENDER
+                    <br><br>
+                    Female: <input type="radio" name="gender" id="box">
+                    Male: <input type="radio" name="gender" id="box">
+                </label>
+                <br><br>
+                <div class="btn">
+                    <button type="submit" onclick='alert("your feedback been submitted")'>SUBMIT</button>
+                </div>
+
+            </form>
+        </fieldset>
+    </div>
+
+</body>
+
+</html>
